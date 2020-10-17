@@ -18,6 +18,7 @@ select * from cliente;
 select * from movimentacao_categoria;
 
 ```
+  ![Consulta SQL](/screenshot/banco.png?raw=true "SQL")
 ### Relacionamento
 
 ```
@@ -60,9 +61,9 @@ EntityManagerFactory emf = Persistence.createEntityManagerFactory("jpa");
 String sql = "select m from Movimentacao m join m.categorias c where c = :pCategoria"; 
  
   ```
-  
-  ![Consulta JPQL](/screenshot/projeto.png?raw=true "Consulta JPQL")
+![Consulta JPQL](/screenshot/projeto.png?raw=true "Consulta JPQL")
 
+### Retorna essa consulta
 ```
 INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 Categorias: [Viagem - 1, Negocio - 2]
