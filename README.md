@@ -61,7 +61,7 @@ String sql = "select m from Movimentacao m join m.categorias c where c = :pCateg
  
   ```
   
-  
+  ![Consulta JPQL](/screenshot/projeto.png?raw=true "Consulta JPQL")
   
   
   
