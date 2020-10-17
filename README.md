@@ -1,5 +1,5 @@
 # JPA - JPQL
-Exemplo Persistência  de dados utilizando JPA e consulta com JPQL
+### Exemplo Persistência de dados utilizando JPA e consulta com JPQL
 
 1. clone o repositório `git clone https://github.com/renatoredes/sis-jpa-jpql`
 
