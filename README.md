@@ -1,5 +1,5 @@
 <div align="center">
-  <img  width="350" height="350" src="https://i0.wp.com/1.bp.blogspot.com/-dMb8BKi9m08/VZKf2HA7_yI/AAAAAAAALZU/0Buymq0L4zg/s1600/jpa_class_level_architecture.png" width="350" alt="Renato Ferreira">
+  <img  width="350" height="350" src="https://www.universidadejava.com.br/images/teaser-jpa.png" width="350" alt="Renato Ferreira">
 	
 # JPA - JPQL
 Exemplo Persistência  de dados utilizando JPA e consulta com JPQL
