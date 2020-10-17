@@ -1,6 +1,8 @@
 # JPA - JPQL
 Exemplo Persistência  de dados utilizando JPA e consulta com JPQL
 
+1. clone o repositório `git clone https://github.com/renatoredes/sis-jpa-jpql`
+
 ```
 ##### CRIAÇÃO DO BANCO: #####
 
@@ -45,12 +47,11 @@ EntityManagerFactory emf = Persistence.createEntityManagerFactory("jpa");
 		em.getTransaction().commit();
 		em.close();
   
-  ```
-  
+  ```  
   ### Exemplo Consultando dados utilizando JPQL
     
   ```
-  	String sql = "select m from Movimentacao m where m.conta = :pConta order by m.valor desc";
+ String sql = "select m from Movimentacao m where m.conta = :pConta order by m.valor desc";
     
   ```
  ### Exemplo Consultando dados utilizando JPQL e INNER JOIN
