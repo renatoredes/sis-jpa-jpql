@@ -62,9 +62,18 @@ String sql = "select m from Movimentacao m join m.categorias c where c = :pCateg
   ```
   
   ![Consulta JPQL](/screenshot/projeto.png?raw=true "Consulta JPQL")
-  
-  
-  
+
+```
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Categorias: [Viagem - 1, Negocio - 2]
+Descricao: Viagem E.U.A
+Valor: 300.00
+Tipo: SAIDA
+Categorias: [Viagem - 1, Negocio - 2]
+Descricao: Viagem Canadá
+Valor: 400.00
+Tipo: SAIDA
+```  
   
   
 
