@@ -82,7 +82,7 @@ serve para salvar uma instância de determinada classe por thread. Com isso, é 
 utilizar seguramente o mesmo EntityManager na thread iniciada, e não enviar
 o EntityManager para o usuário errado.<br />
  
-É Possivel visualizar um exemplo de uso deste recurso na claase CriaConta
+É Possivel visualizar um exemplo de uso deste recurso na clase CriaConta
 ```
 // Genérico
 EntityManager entityManager = JpaUtil.getEntityManager();
