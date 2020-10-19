@@ -80,8 +80,10 @@ Tipo: SAIDA
 Implementei a classe JpaUtil que utiliza o recurso de  ThreadLocal<EntityManager>, que
 serve para salvar uma instância de determinada classe por thread. Com isso, é possível
 utilizar seguramente o mesmo EntityManager na thread iniciada, e não enviar
-o EntityManager para o usuário errado.
- ```
+o EntityManager para o usuário errado.<br />
+ 
+É Possivel visualizar um exemplo de uso deste recurso na claase CriaConta
+```
 // Genérico
 EntityManager entityManager = JpaUtil.getEntityManager();
 ```
