@@ -76,5 +76,8 @@ Valor: 400.00
 Tipo: SAIDA
 ```  
   
-  
-
+ ### JpaUtil 
+ ```
+// Genérico
+EntityManager entityManager = JpaUtil.getEntityManager();
+```
