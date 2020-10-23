@@ -105,6 +105,7 @@ utilizar seguramente o mesmo EntityManager na thread iniciada, e não enviar
 br.com.jpa.jpql.heraca.sigleTable
 Classes: PessoaSigleTable, PessoaFisicaSigleTable, PessoaJuridicaSigleTable
 `
+<br/>
 ![SINGLETABLE](/screenshot/sigletable.png?raw=true)
 
 
