@@ -108,7 +108,7 @@ Classes: PessoaSigleTable, PessoaFisicaSigleTable, PessoaJuridicaSigleTable
 <br/>
 • Característica salvar todas as informações das Entities em uma única tabela.
 <br/>
-• Exemplo na imagem 
+
 ### Vantagens dessa abordagem:
 • Dados Centralizados - os dados estão em uma única tabela, fácil de localizar
 todos os dados.<br/>
@@ -120,6 +120,12 @@ dados, facilita a extração de dados via SQL. <br/>
 em apenas uma tabela. É possível também fazer otimizações como criação de
 index no banco de dados.
 
+### Desvantagem: 
+Uma entity que herde da classe pai não pode ter campos definidos como not null.
+Solução para esse problema seria deixar no banco de dados aceitando null 
+E validarmanualmente o campo pedigree, essa validação poderia ser feita pela anotação @NotNull
+<br/>
+• Exemplo na imagem 
 
 <br/><br/>
 ![SINGLETABLE](/screenshot/sigletable.png?raw=true)
