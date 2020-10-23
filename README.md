@@ -95,9 +95,9 @@ serve para salvar uma instância de determinada classe por thread. Com isso, é 
 utilizar seguramente o mesmo EntityManager na thread iniciada, e não enviar
 
 ### Herança
-<br/>
+
 ![Herança](/screenshot/herança.png?raw=true)
-<br/>
+
 
 ### Estrutura de tabela utilizando estratégia de herança SINGLE_TABLE
 <br/>
