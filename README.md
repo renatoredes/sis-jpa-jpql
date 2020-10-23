@@ -105,7 +105,9 @@ utilizar seguramente o mesmo EntityManager na thread iniciada, e não enviar
 br.com.jpa.jpql.heraca.sigleTable
 Classes: PessoaSigleTable, PessoaFisicaSigleTable, PessoaJuridicaSigleTable
 `
+<br/>
 • Característica salvar todas as informações das Entities em uma única tabela.
+<br/>
 • Exemplo na imagem 
 ### Vantagens dessa abordagem:
 • Dados Centralizados - os dados estão em uma única tabela, fácil de localizar
