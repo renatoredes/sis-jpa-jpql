@@ -103,7 +103,8 @@ utilizar seguramente o mesmo EntityManager na thread iniciada, e não enviar
 • É possível encontrar um exemplo de Herança SINGLE_TABLE no Package <br/>
 `
 br.com.jpa.jpql.heraca.sigleTable
-Classes: PessoaSigleTable, PessoaFisicaSigleTable, PessoaJuridicaSigleTable
+Classes: PessoaSigleTable, PessoaFisicaSigleTable, PessoaJuridicaSigleTable,
+TesteHerancaPessoaFisicaSigleTable,TesteHerancaPessoaJuridicaSigleTable
 `
 <br/>
 • Característica salvar todas as informações das Entities em uma única tabela.
@@ -144,6 +145,14 @@ pessoafisica e pessoa.<br/>
 
 • Alto número de JOINS—quantomaior a hierarquia,maior o número de joins<br/>
 em uma consulta para trazer a entity do banco de dados.<br/>
+
+• É possível encontrar um exemplo de Herança SINGLE_TABLE no Package <br/>
+`
+br.com.jpa.jpql.heraca.joined
+Classes: PessoaJoined, PessoaFisicaJoined,PessoaJuridicaJoined,
+TesteHerancaPessoaFisicaJoined,TesteHerancaPessoaJuridicaJoined
+
+`
 
 • Exemplo na imagem: 
 <br/><br/>
