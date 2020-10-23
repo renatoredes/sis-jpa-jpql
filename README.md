@@ -107,6 +107,18 @@ Classes: PessoaSigleTable, PessoaFisicaSigleTable, PessoaJuridicaSigleTable
 `
 * Característica salvar todas as informações das Entities em uma única tabela.
 * Exemplo na imagem 
+### Vantagens dessa abordagem:
+• Dados Centralizados - os dados estão em uma única tabela, fácil de localizar
+todos os dados.<br/>
+
+• Fácil de entender — um desenvolvedor júnior poderia facilmente analisar os
+dados, facilita a extração de dados via SQL. <br/>
+
+• Boa Performance — tem uma performance boa pois a consulta é realizada
+em apenas uma tabela. É possível também fazer otimizações como criação de
+index no banco de dados.
+
+
 <br/><br/>
 ![SINGLETABLE](/screenshot/sigletable.png?raw=true)
 
