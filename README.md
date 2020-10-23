@@ -90,8 +90,8 @@ EntityManager entityManager = JpaUtil.getEntityManager();
 ```
 ### Herança
 
-![Herança](/screenshot/herançaJPA.png?raw=true)
+![Herança](/screenshot/herançaJPA.png?raw=true) <br/>
 
 * Estrutura de tabela utilizando estratégia de herança SINGLE_TABLE
 
-!SigleTable(/screenshot/sigletableJPA .png?raw=true)
+![SigleTable](/screenshot/sigletableJPA .png?raw=true)
