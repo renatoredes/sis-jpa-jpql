@@ -98,8 +98,13 @@ utilizar seguramente o mesmo EntityManager na thread iniciada, e não enviar
 ![Herança](/screenshot/herança.png?raw=true)
 
 
-* Estrutura das tabela utilizando estratégia de herança SINGLE_TABLE
+### Estrutura de tabela utilizando estratégia de herança SINGLE_TABLE
 
+* É possível encontrar um exemplo de Herança SINGLE_TABLE no Package <br/>
+`
+br.com.jpa.jpql.heraca.sigleTable
+Classes: PessoaSigleTable, PessoaFisicaSigleTable, PessoaJuridicaSigleTable
+`
 ![SINGLETABLE](/screenshot/sigletable.png?raw=true)
 
 
