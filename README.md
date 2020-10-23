@@ -75,6 +75,19 @@ Descricao: Viagem Canadá
 Valor: 400.00
 Tipo: SAIDA
 ```  
-  
-  
+
+### Herança
+
+![Herança](/screenshot/herançaJPA.png?raw=true)
+
+* Estrutura de tabela utilizando estratégia de herança SINGLE_TABLE
+
+!SigleTable(/screenshot/sigletableJPA .png?raw=true)
+
+
+
+
+
+
+
 

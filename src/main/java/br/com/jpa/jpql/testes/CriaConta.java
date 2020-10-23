@@ -20,7 +20,7 @@ public class CriaConta {
 			entityManager.getTransaction().begin();
 
 			Conta conta = new Conta();
-			conta.setTitular("Beatriz");
+			conta.setTitular("Redes");
 			conta.setNumero(1234);
 			conta.setAgencia(1235);
 			/* persiste os dados */
@@ -30,7 +30,7 @@ public class CriaConta {
 			System.out.println("Dados inserido com Sucesso!");
 
 		} catch (Exception e) {
-			// se estiver conexão aberto
+			// se estiver conexão aberto, caso capturar uma Exception, fazer rollback
 			if (entityManager.isOpen()) {
 				entityManager.getTransaction().rollback();
 			}

@@ -5,6 +5,13 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
+/**
+ * 
+ * @author Renato
+ * ThreadLocal salva instância de uma classe por theread
+ * Neste caso épossivel utilivar seguramente o mesmo EntityManager
+ * E evita enviar o EntityManager para usuario errado
+ */
 public class JpaUtil {
 
 	private static final String PERSISTENCE_UNIT = "jpa";

@@ -27,7 +27,7 @@ public class Categoria {
 	 essa anotação @Deprecated indica que não vamos utilizar esse construtor é apenas para fim de infra-estrutuda que isso vai ser usado para o hibernete
 	  
 	  */
-	@Deprecated
+	@Deprecated  
 	public Categoria() {
 	}
 
