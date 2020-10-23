@@ -97,9 +97,11 @@ utilizar seguramente o mesmo EntityManager na thread iniciada, e não enviar
 ### Herança
 
 ![Herança](/screenshot/herançaJPA.png?raw=true)
-<br/>
+`
+`
 * Estrutura de tabela utilizando estratégia de herança SINGLE_TABLE
-<br/>
+`
+`
 ![SINGLETABLE](/screenshot/sigletableJPA.png?raw=true)
 
 
