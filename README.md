@@ -90,12 +90,16 @@ EntityManager entityManager = JpaUtil.getEntityManager();
 ```
   
  ### JpaUtil 
-Implementei a classe JpaUtil que utiliza o recurso de  ThreadLocal<EntityManager>, que
+Classe JpaUtil que utiliza o recurso de  ThreadLocal<EntityManager>, que
 serve para salvar uma instância de determinada classe por thread. Com isso, é possível
 utilizar seguramente o mesmo EntityManager na thread iniciada, e não enviar
-o EntityManager para o usuário errado.<br />
-![SigleTable](/screenshot/sigletableJPA .png?raw=true)
+
+### Herança
+
+![Herança](/screenshot/herançaJPA.png?raw=true)
 
 * Estrutura de tabela utilizando estratégia de herança SINGLE_TABLE
 
-!SigleTable(/screenshot/sigletableJPA .png?raw=true)
+![SINGLE_TABLE](/screenshot/sigletableJPA.png?raw=true)
+
+
