@@ -1,5 +1,6 @@
 # JPA - JPQL
-### Exemplo Persistência de dados utilizando JPA e consulta com JPQL
+### Exemplo Persistência de dados utilizando JPA e consulta com JPQL 
+### Nas implementações vamos ter alguns Exemplos Basicos e Avançados
 
 1. clone o repositório `git clone https://github.com/renatoredes/sis-jpa-jpql`
 
@@ -75,7 +76,18 @@ Descricao: Viagem Canadá
 Valor: 400.00
 Tipo: SAIDA
 ```  
-
+  
+ ### JpaUtil 
+Implementei a classe JpaUtil que utiliza o recurso de  ThreadLocal<EntityManager>, que
+serve para salvar uma instância de determinada classe por thread. Com isso, é possível
+utilizar seguramente o mesmo EntityManager na thread iniciada, e não enviar
+o EntityManager para o usuário errado.<br />
+ 
+É Possivel visualizar um exemplo de uso deste recurso na clase CriaConta
+```
+// Genérico
+EntityManager entityManager = JpaUtil.getEntityManager();
+```
 ### Herança
 
 ![Herança](/screenshot/herançaJPA.png?raw=true)
@@ -83,11 +95,3 @@ Tipo: SAIDA
 * Estrutura de tabela utilizando estratégia de herança SINGLE_TABLE
 
 !SigleTable(/screenshot/sigletableJPA .png?raw=true)
-
-
-
-
-
-
-
-
