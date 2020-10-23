@@ -13,7 +13,7 @@ import javax.persistence.*;
 @Table(name = "Pessoa_SigleTable")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name = "pertence_a_classe")
-public class PessoaSigleTable {
+public abstract class PessoaSigleTable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

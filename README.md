@@ -121,13 +121,30 @@ em apenas uma tabela. É possível também fazer otimizações como criação de
 index no banco de dados.
 
 ### Desvantagem: 
-Uma entity que herde da classe pai não pode ter campos definidos como not null.
-Solução para esse problema seria deixar no banco de dados aceitando null 
+Uma entity que herde da classe pai não pode ter campos definidos como not null.<br/>
+Solução para esse problema seria deixar no banco de dados aceitando null <br/>
 E validarmanualmente o campo pedigree, essa validação poderia ser feita pela anotação @NotNull
 <br/>
-• Exemplo na imagem 
+• Exemplo na imagem:
 
 <br/><br/>
 ![SINGLETABLE](/screenshot/sigletable.png?raw=true)
+<br/>
 
+### Estrutura de tabela utilizando estratégia de herança JOINED
+• Utiliza da abordagem de uma tabela para cada entity sendo abstrata ou não.<br/>
 
+### Vantagens:
+• Tabela por Entity permitindo campos null<br/>
+• Segue modelo OO—as tabelas serão reflexo do OO aplicado nas Entities.
+### Desvantagem: 
+• Insert mais custoso—um insert no banco de dados custaria “mais caro”. Para<br/>
+persistir a entity PessoaFisica seria necessário realizar insert na tabela<br/>
+pessoafisica e pessoa.<br/>
+
+• Alto número de JOINS—quantomaior a hierarquia,maior o número de joins<br/>
+em uma consulta para trazer a entity do banco de dados.<br/>
+
+• Exemplo na imagem: 
+<br/><br/>
+![JOINED](/screenshot/JOINED.png?raw=true)
