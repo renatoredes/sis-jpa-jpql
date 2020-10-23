@@ -100,13 +100,13 @@ utilizar seguramente o mesmo EntityManager na thread iniciada, e não enviar
 
 ### Estrutura de tabela utilizando estratégia de herança SINGLE_TABLE
 
-* É possível encontrar um exemplo de Herança SINGLE_TABLE no Package <br/>
+• É possível encontrar um exemplo de Herança SINGLE_TABLE no Package <br/>
 `
 br.com.jpa.jpql.heraca.sigleTable
 Classes: PessoaSigleTable, PessoaFisicaSigleTable, PessoaJuridicaSigleTable
 `
-* Característica salvar todas as informações das Entities em uma única tabela.
-* Exemplo na imagem 
+• Característica salvar todas as informações das Entities em uma única tabela.
+• Exemplo na imagem 
 ### Vantagens dessa abordagem:
 • Dados Centralizados - os dados estão em uma única tabela, fácil de localizar
 todos os dados.<br/>
