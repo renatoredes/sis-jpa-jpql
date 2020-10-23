@@ -147,11 +147,11 @@ pessoafisica e pessoa.<br/>
 em uma consulta para trazer a entity do banco de dados.<br/>
 
 • É possível encontrar um exemplo de Herança SINGLE_TABLE no Package <br/>
+
 `
 br.com.jpa.jpql.heraca.joined
 Classes: PessoaJoined, PessoaFisicaJoined,PessoaJuridicaJoined,
 TesteHerancaPessoaFisicaJoined,TesteHerancaPessoaJuridicaJoined
-
 `
 
 • Exemplo na imagem: 
