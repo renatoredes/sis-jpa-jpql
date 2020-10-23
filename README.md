@@ -99,7 +99,7 @@ utilizar seguramente o mesmo EntityManager na thread iniciada, e não enviar
 ![Herança](/screenshot/herança.png?raw=true)
 
 
-* Estrutura de tabela utilizando estratégia de herança SINGLE_TABLE
+* Estrutura das tabela utilizando estratégia de herança SINGLE_TABLE
 
 ![SINGLETABLE](/screenshot/sigletable.png?raw=true)
 
