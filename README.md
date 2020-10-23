@@ -81,7 +81,7 @@ Tipo: SAIDA
 Implementei a classe JpaUtil que utiliza o recurso de  ThreadLocal<EntityManager>, que
 serve para salvar uma instância de determinada classe por thread. Com isso, é possível
 utilizar seguramente o mesmo EntityManager na thread iniciada, e não enviar
-o EntityManager para o usuário errado.<br />
+o EntityManager para o usuário errado.<br/>
  
 É Possivel visualizar um exemplo de uso deste recurso na clase CriaConta
 ```
@@ -95,13 +95,12 @@ serve para salvar uma instância de determinada classe por thread. Com isso, é 
 utilizar seguramente o mesmo EntityManager na thread iniciada, e não enviar
 
 ### Herança
-
+<br/>
 ![Herança](/screenshot/herança.png?raw=true)
-`
-`
-* Estrutura de tabela utilizando estratégia de herança SINGLE_TABLE
-`
-`
+<br/>
+
+### Estrutura de tabela utilizando estratégia de herança SINGLE_TABLE
+<br/>
 ![SINGLETABLE](/screenshot/sigletable.png?raw=true)
 
 
