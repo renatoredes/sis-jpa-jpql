@@ -146,7 +146,7 @@ pessoafisica e pessoa.<br/>
 • Alto número de JOINS—quantomaior a hierarquia,maior o número de joins<br/>
 em uma consulta para trazer a entity do banco de dados.<br/>
 
-• É possível encontrar um exemplo de Herança SINGLE_TABLE no Package <br/>
+• É possível encontrar um exemplo de Herança JOINED no Package <br/>
 
 `
 br.com.jpa.jpql.heraca.joined
