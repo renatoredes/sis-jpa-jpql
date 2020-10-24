@@ -54,6 +54,7 @@ public enum StatusPedido {
  @Enumerated(EnumType.STRING)
  private StatusPedido statusPedido;
 
+• Classe de teste: TesteEnum
 
 ```
 ***
