@@ -163,7 +163,16 @@ TesteHerancaPessoaFisicaJoined,TesteHerancaPessoaJuridicaJoined
 • Imagine uma tabela onde temos os dados de Aluno e Seus respectivos endereços.<br/>
 Essa funcionalidade serve para organizar melhor a orientação a objetos de aplicação.<br/>
 
-É possível encontrar um exemplo:`package br.com.jpa.jpql.embedded`<br/>
-
+É possível encontrar um exemplo: 
+`
+package br.com.jpa.jpql.embedded
+package br.com.jpa.jpql.testes
+`<br/>
+  
 Para criar 2 Endreço exemplo endereço Pessoal e Endereço do Trabalho<br/> 
 No mesmo objeto poderiamos utilizar a anotação:`@AttributeOverride`<br/> 
+
+• Neste exemplo é possivel setar valor em uma classe com anotação @Embeddable
+`
+TesteAlunoEmbedded
+`
