@@ -110,7 +110,7 @@ TesteHerancaPessoaFisicaSigleTable,TesteHerancaPessoaJuridicaSigleTable
 • Característica salvar todas as informações das Entities em uma única tabela.
 <br/>
 
-### Vantagens dessa abordagem:
+### Vantagens dessa abordagem: 😃 
 • Dados Centralizados - os dados estão em uma única tabela, fácil de localizar
 todos os dados.<br/>
 
@@ -121,7 +121,7 @@ dados, facilita a extração de dados via SQL. <br/>
 em apenas uma tabela. É possível também fazer otimizações como criação de
 index no banco de dados.
 
-### Desvantagem: 
+### Desvantagem: 😡
 Uma entity que herde da classe pai não pode ter campos definidos como not null.<br/>
 Solução para esse problema seria deixar no banco de dados aceitando null <br/>
 E validarmanualmente o campo pedigree, essa validação poderia ser feita pela anotação @NotNull
@@ -135,10 +135,10 @@ E validarmanualmente o campo pedigree, essa validação poderia ser feita pela a
 ### Estrutura de tabela utilizando estratégia de herança JOINED
 • Utiliza da abordagem de uma tabela para cada entity sendo abstrata ou não.<br/>
 
-### Vantagens:
+### Vantagens: 😃 
 • Tabela por Entity permitindo campos null<br/>
 • Segue modelo OO—as tabelas serão reflexo do OO aplicado nas Entities.
-### Desvantagem: 
+### Desvantagem: 😡
 • Insert mais custoso—um insert no banco de dados custaria “mais caro”. Para<br/>
 persistir a entity PessoaFisica seria necessário realizar insert na tabela<br/>
 pessoafisica e pessoa.<br/>
@@ -159,7 +159,7 @@ TesteHerancaPessoaFisicaJoined,TesteHerancaPessoaJuridicaJoined
 ![JOINED](/screenshot/JOINED.png?raw=true)
 <br/>
 
-### Evitando Joins com Embedded
+### Evitando Joins com Embedded 😌
 • Imagine uma tabela onde temos os dados de Aluno e Seus respectivos endereços.<br/>
 Essa funcionalidade serve para organizar melhor a orientação a objetos de aplicação.<br/>
 
@@ -172,7 +172,7 @@ package br.com.jpa.jpql.testes
 Para criar 2 Endreço exemplo endereço Pessoal e Endereço do Trabalho<br/> 
 No mesmo objeto poderiamos utilizar a anotação:`@AttributeOverride`<br/> 
 
-• Neste exemplo é possivel setar valor em uma classe com anotação @Embeddable
-`
-TesteAlunoEmbedded
-`
+
+
+• Nessa classe de Teste `TesteAlunoEmbedded` é possivel setar valores de endereço<br/>
+Utilizando com uma classe que utiliza anotação @Embeddable<br/> D + Neh ? 😃 
