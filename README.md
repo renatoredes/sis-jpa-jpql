@@ -30,11 +30,22 @@ select * from movimentacao_categoria;
  
 ```
 ***
-### Exemplo utilizando Enum
+### Exemplos utilizando Enum no package:
+
 ```
-public enum TipoMovimentacao {
-	ENTRADA, SAIDA;
+package br.com.jpa.jpql.enumeracao;
+
+public enum PerfilUsuario {
+
+	ADMINISTRADOR, GERENTE, COMUM
 }
+
+public enum StatusPedido {
+	
+	APROVADO, ANALISE
+}
+
+
 ```
 ***
 ### Exemplos de Persistência de dados
