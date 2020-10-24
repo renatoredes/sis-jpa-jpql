@@ -21,5 +21,30 @@ public class Endereco {
 	@Column(name = "endereco_bairro")
 	private String enderecoBairro;
 
+	public String getEnderecoCasa() {
+		return enderecoCasa;
+	}
+
+	public void setEnderecoCasa(String enderecoCasa) {
+		this.enderecoCasa = enderecoCasa;
+	}
+
+	public int getEnderecoNumero() {
+		return enderecoNumero;
+	}
+
+	public void setEnderecoNumero(int enderecoNumero) {
+		this.enderecoNumero = enderecoNumero;
+	}
+
+	public String getEnderecoBairro() {
+		return enderecoBairro;
+	}
+
+	public void setEnderecoBairro(String enderecoBairro) {
+		this.enderecoBairro = enderecoBairro;
+	}
+
 	// --Get e Set --//
+	
 }
