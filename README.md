@@ -157,3 +157,13 @@ TesteHerancaPessoaFisicaJoined,TesteHerancaPessoaJuridicaJoined
 • Exemplo na imagem: 
 <br/><br/>
 ![JOINED](/screenshot/JOINED.png?raw=true)
+<br/>
+
+### Evitando Joins com Embedded
+• Imagine uma tabela onde temos os dados de Aluno e Seus respectivos endereços.<br/>
+Essa funcionalidade serve para organizar melhor a orientação a objetos de aplicação.<br/>
+
+É possível encontrar um exemplo:`package br.com.jpa.jpql.embedded`<br/>
+
+Para criar 2 Endreço exemplo endereço Pessoal e Endereço do Trabalho<br/> 
+No mesmo objeto poderiamos utilizar a anotação:`@AttributeOverride`<br/> 
