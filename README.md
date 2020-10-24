@@ -159,7 +159,7 @@ TesteHerancaPessoaFisicaJoined,TesteHerancaPessoaJuridicaJoined
 ![JOINED](/screenshot/JOINED.png?raw=true)
 <br/>
 
-### Evitando Joins com Embedded 😌
+### Evitando Joins com Embedded  😃
 • Imagine uma tabela onde temos os dados de Aluno e Seus respectivos endereços.<br/>
 Essa funcionalidade serve para organizar melhor a orientação a objetos de aplicação.<br/>
 
