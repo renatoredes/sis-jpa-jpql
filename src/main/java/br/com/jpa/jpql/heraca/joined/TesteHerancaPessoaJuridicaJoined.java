@@ -1,8 +1,7 @@
-package br.com.jpa.jpql.testes;
+package br.com.jpa.jpql.heraca.joined;
 
 import javax.persistence.EntityManager;
 
-import br.com.jpa.jpql.heraca.joined.PessoaFisicaJoined;
 import br.com.jpa.jpql.util.JpaUtil;
 
 /**
@@ -10,7 +9,7 @@ import br.com.jpa.jpql.util.JpaUtil;
  * @author Renato
  * Classe de teste responsável por persistir dados de Pessoa Fisica utilizando conceito de herança SigleTable
  */
-public class TesteHerancaPessoaFisicaJoined {
+public class TesteHerancaPessoaJuridicaJoined {
 
 	public static void main(String[] args) {
 
@@ -22,22 +21,19 @@ public class TesteHerancaPessoaFisicaJoined {
 			entityManager.getTransaction().begin();
 
 			
-			PessoaFisicaJoined pessoaFisicaJoined = new PessoaFisicaJoined();
-			
-			System.out.println("Inserindo dados de Pessoa Fisica");
-			
-			pessoaFisicaJoined.setNome("Renato");
-			pessoaFisicaJoined.setCPF("000.000.000-00");
+			PessoaJuridicaJoined pessoaJuridicaJoined = new PessoaJuridicaJoined();
+			pessoaJuridicaJoined.setNome("Renato_Redes_Software.sa");
+			pessoaJuridicaJoined.setCNPJ("00.000.000/0001-00");
 			
 			System.out.println("realizando insert "+ " - " 
-			+ pessoaFisicaJoined.getNome() + " - "  
-			+ pessoaFisicaJoined.getCPF());
+			+ pessoaJuridicaJoined.getNome() + " - "  
+			+ pessoaJuridicaJoined.getCNPJ());
 			
 			/* persiste os dados */
-			entityManager.persist(pessoaFisicaJoined);
+			entityManager.persist(pessoaJuridicaJoined);
 			/* execulta transação */
 			entityManager.getTransaction().commit();
-			System.out.println("Dados Pessoa Fisica persistido com Sucesso!");
+			System.out.println("Dados Pessoa Juridica persistido com Sucesso!");
 
 		} catch (Exception e) {
 			// se estiver conexão aberto, caso capturar uma Exception, fazer rollback

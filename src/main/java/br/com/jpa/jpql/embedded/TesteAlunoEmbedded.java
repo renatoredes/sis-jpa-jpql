@@ -1,9 +1,7 @@
-package br.com.jpa.jpql.testes;
+package br.com.jpa.jpql.embedded;
 
 import javax.persistence.EntityManager;
 
-import br.com.jpa.jpql.embedded.Aluno;
-import br.com.jpa.jpql.embedded.Endereco;
 import br.com.jpa.jpql.util.JpaUtil;
 
 public class TesteAlunoEmbedded {
@@ -24,6 +22,7 @@ public class TesteAlunoEmbedded {
 			aluno.getEndereco().setEnderecoCasa("Teste");
 			
 			/* persiste os dados */
+			System.out.println("realizando persistencia de dados......");
 			entityManager.persist(aluno);
 			/* execulta transação */
 			entityManager.getTransaction().commit();
