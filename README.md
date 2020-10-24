@@ -44,11 +44,11 @@ public enum StatusPedido {
 	
 	APROVADO, ANALISE
 }
-• Exemplo inserindo valor númerico no banco de dados
+• Exemplo inserindo valor númerico no banco de dados<br/>
  @Enumerated
  private PerfilUsuario perfilUsuario;
  
-• Exemplo inserindo valor texto no banco de dados
+• Exemplo inserindo valor texto no banco de dados<br/>
  @Enumerated(EnumType.STRING)
  private StatusPedido statusPedido;
 
