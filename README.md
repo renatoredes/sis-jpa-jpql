@@ -4,6 +4,7 @@
 
 1. clone o repositório `git clone https://github.com/renatoredes/sis-jpa-jpql`
 2. Execulte as classes de testes
+***
 ```
 ##### CRIAÇÃO DO BANCO: #####
 
