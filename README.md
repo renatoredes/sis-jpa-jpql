@@ -99,12 +99,12 @@ EntityManager entityManager = JpaUtil.getEntityManager();
 Classe JpaUtil que utiliza o recurso de  ThreadLocal<EntityManager>, que
 serve para salvar uma instância de determinada classe por thread. Com isso, é possível
 utilizar seguramente o mesmo EntityManager na thread iniciada, e não enviar
-
+***
 ### Herança
 
 ![Herança](/screenshot/herança.png?raw=true)
 
-
+***
 ### Estrutura de tabela utilizando estratégia de herança SINGLE_TABLE
 
 • É possível encontrar um exemplo de Herança SINGLE_TABLE no Package <br/>
@@ -116,6 +116,7 @@ TesteHerancaPessoaFisicaSigleTable,TesteHerancaPessoaJuridicaSigleTable
 <br/>
 • Característica salvar todas as informações das Entities em uma única tabela.
 <br/>
+***
 
 ### Vantagens dessa abordagem: 😃 
 • Dados Centralizados - os dados estão em uma única tabela, fácil de localizar
@@ -128,6 +129,8 @@ dados, facilita a extração de dados via SQL. <br/>
 em apenas uma tabela. É possível também fazer otimizações como criação de
 index no banco de dados.
 
+***
+
 ### Desvantagem: 😡
 Uma entity que herde da classe pai não pode ter campos definidos como not null.<br/>
 Solução para esse problema seria deixar no banco de dados aceitando null <br/>
@@ -138,6 +141,8 @@ E validarmanualmente o campo pedigree, essa validação poderia ser feita pela a
 <br/><br/>
 ![SINGLETABLE](/screenshot/sigletable.png?raw=true)
 <br/>
+
+***
 
 ### Estrutura de tabela utilizando estratégia de herança JOINED
 • Utiliza da abordagem de uma tabela para cada entity sendo abstrata ou não.<br/>
@@ -166,6 +171,8 @@ TesteHerancaPessoaFisicaJoined,TesteHerancaPessoaJuridicaJoined
 ![JOINED](/screenshot/JOINED.png?raw=true)
 <br/>
 
+***
+
 ### Evitando Joins com Embedded  😃
 • Imagine uma tabela onde temos os dados de Aluno e Seus respectivos endereços.<br/>
 Essa funcionalidade serve para organizar melhor a orientação a objetos de aplicação.<br/>
@@ -179,7 +186,7 @@ package br.com.jpa.jpql.testes
 Para criar 2 Endreço exemplo endereço Pessoal e Endereço do Trabalho<br/> 
 No mesmo objeto poderiamos utilizar a anotação:`@AttributeOverride`<br/> 
 
-
-
 • Nessa classe de Teste `TesteAlunoEmbedded` é possivel setar valores de endereço<br/>
 Utilizando com uma classe que utiliza anotação @Embeddable<br/> D + Neh ? 😃 
+
+***
