@@ -11,7 +11,7 @@
 CREATE DATABASE bdjpa;
 
 ##### BANCO: #####
-Consultas Tabelas utilizando SQL
+Consultas Simples SQL
 
 select * from conta;
 select * from movimentacao;
@@ -20,6 +20,7 @@ select * from cliente;
 select * from movimentacao_categoria;
 
 ```
+***
   ![Consulta SQL](/screenshot/banco.png?raw=true "SQL")
 ### Relacionamento
 
@@ -28,12 +29,14 @@ select * from movimentacao_categoria;
 @ManyToMany
  
 ```
+***
 ### Exemplo utilizando Enum
 ```
 public enum TipoMovimentacao {
 	ENTRADA, SAIDA;
 }
 ```
+***
 ### Exemplos de Persistência de dados
 
 ```
@@ -51,12 +54,14 @@ EntityManagerFactory emf = Persistence.createEntityManagerFactory("jpa");
 		em.close();
   
   ```  
+  ***
   ### Exemplo Consultando dados utilizando JPQL
     
   ```
  String sql = "select m from Movimentacao m where m.conta = :pConta order by m.valor desc";
     
   ```
+  ***
  ### Exemplo Consultando dados utilizando JPQL e INNER JOIN
   
   ```
@@ -64,7 +69,7 @@ String sql = "select m from Movimentacao m join m.categorias c where c = :pCateg
  
   ```
 ![Consulta JPQL](/screenshot/projeto.png?raw=true "Consulta JPQL")
-
+***
 ### Retorna essa consulta
 ```
 INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
@@ -77,6 +82,7 @@ Descricao: Viagem Canadá
 Valor: 400.00
 Tipo: SAIDA
 ```  
+***
  ### JpaUtil 
 Implementei a classe JpaUtil que utiliza o recurso de  ThreadLocal<EntityManager>, que
 serve para salvar uma instância de determinada classe por thread. Com isso, é possível
@@ -88,7 +94,7 @@ o EntityManager para o usuário errado.<br/>
 // Genérico
 EntityManager entityManager = JpaUtil.getEntityManager();
 ```
-  
+***
  ### JpaUtil 
 Classe JpaUtil que utiliza o recurso de  ThreadLocal<EntityManager>, que
 serve para salvar uma instância de determinada classe por thread. Com isso, é possível
