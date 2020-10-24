@@ -44,6 +44,13 @@ public enum StatusPedido {
 	
 	APROVADO, ANALISE
 }
+ Exemplo inserindo valor númerico no banco de dados
+ @Enumerated
+ private PerfilUsuario perfilUsuario;
+ 
+ Exemplo inserindo valor texto no banco de dados
+ @Enumerated(EnumType.STRING)
+ private StatusPedido statusPedido;
 
 
 ```
