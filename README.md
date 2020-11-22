@@ -7,7 +7,7 @@
 
 # Objetivo
 disponibilizar códigos prontos para reutilização em projetos de estudos ou produção.
-- Página Wiki da documentação deste projeto click no link para abrir [ DOCUMENTAÇÃO WIKI ](https://github.com/renatoredes/sis-jpa-jpql/wiki).
+- Click no link da Página Wiki para acessar a 👉👉 [ DOCUMENTAÇÃO WIKI ] (https://github.com/renatoredes/sis-jpa-jpql/wiki).
 
 ## License
 MIT © [Renato Ferreira](https://github.com/renatoredes)
