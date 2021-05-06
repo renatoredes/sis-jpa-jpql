@@ -12,5 +12,5 @@ disponibilizar códigos prontos para reutilização em projetos.
 ![cat](https://1.bp.blogspot.com/-dMb8BKi9m08/VZKf2HA7_yI/AAAAAAAALZU/0Buymq0L4zg/s1600/jpa_class_level_architecture.png)
 
 ## License
-MIT © [Renato Ferreira](https://github.com/renatoredes)
-Perfil: [linkedin](https://www.linkedin.com/in/renatoredes/) 
+MIT © [Renato Ferreira](https://github.com/renatoredes)<br />
+[https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white](https://www.linkedin.com/in/renatoredes/) 
