@@ -13,3 +13,4 @@ disponibilizar códigos prontos para reutilização em projetos.
 
 ## License
 MIT © [Renato Ferreira](https://github.com/renatoredes)
+Perfil: [linkedin](https://www.linkedin.com/in/renatoredes/) 
